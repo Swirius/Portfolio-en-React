@@ -112,7 +112,7 @@ This portfolio is configured to deploy automatically to GitHub Pages using GitHu
 3. **Push to main branch**
    ```bash
    git add .
-   git commit -m "Configure GitHub Pages deployment"
+   git commit -m "Deploy to GitHub Pages"
    git push origin main
    ```
 
@@ -120,6 +120,13 @@ This portfolio is configured to deploy automatically to GitHub Pages using GitHu
    - The GitHub Action will automatically build and deploy your site
    - Check the **Actions** tab to monitor the deployment
    - Your site will be live at `https://username.github.io/repository-name/`
+
+### Important Notes
+
+- **No lock file needed**: The workflow is configured to work without `package-lock.json`
+- **HTTPS is automatic**: GitHub Pages automatically enforces HTTPS for security
+- **Build time**: First deployment may take 2-3 minutes
+- **Troubleshooting**: If deployment fails, check the Actions tab for error logs
 
 ### Manual Deployment
 
