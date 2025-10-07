@@ -86,11 +86,60 @@ npm run build
 npm start
 ```
 
+## 🌐 Deploy to GitHub Pages
+
+This portfolio is configured to deploy automatically to GitHub Pages using GitHub Actions.
+
+### Setup Instructions
+
+1. **Enable GitHub Pages**
+   - Go to your repository settings
+   - Navigate to **Pages** section
+   - Under **Source**, select **GitHub Actions**
+
+2. **Configure basePath (if needed)**
+   
+   If deploying to `username.github.io/repository-name`:
+   - Open `next.config.mjs`
+   - Uncomment and set the basePath:
+     ```js
+     basePath: '/your-repository-name',
+     ```
+   
+   If deploying to `username.github.io` (user/org site):
+   - Leave basePath commented out or remove it
+
+3. **Push to main branch**
+   ```bash
+   git add .
+   git commit -m "Configure GitHub Pages deployment"
+   git push origin main
+   ```
+
+4. **Automatic Deployment**
+   - The GitHub Action will automatically build and deploy your site
+   - Check the **Actions** tab to monitor the deployment
+   - Your site will be live at `https://username.github.io/repository-name/`
+
+### Manual Deployment
+
+If you prefer to deploy manually:
+
+```bash
+npm run build
+# The static files will be in the 'out' directory
+```
+
+Then upload the `out` directory contents to your hosting provider.
+
 ## 📁 Project Structure
 
 
 ```
 portfolio/
+├── .github/
+│   └── workflows/
+│       └── nextjs.yml      # GitHub Pages deployment workflow
 ├── app/
 │   ├── layout.tsx          # Root layout with theme provider
 │   ├── page.tsx            # Main page with all sections
@@ -109,6 +158,7 @@ portfolio/
 │   ├── background-effects.tsx # Animated background
 │   └── ui/                 # shadcn/ui components
 ├── public/                 # Static assets
+├── next.config.mjs         # Next.js configuration
 └── README.md              # This file
 ```
 
