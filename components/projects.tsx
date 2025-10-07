@@ -20,8 +20,8 @@ const projects = [
     description: "Application for vocational guidance and soft skills development.",
     stack: ["HTML", "CSS", "JavaScript"],
     features: ["Test with summary and suggestions", 'Interactive "DressCode" module (drag & drop)'],
-    github: "https://github.com/swirius/skillup",
-    demo: "https://skillup-demo.vercel.app",
+    github: "https://github.com/Swirius/SkillUp-",
+    demo: "https://swirius.github.io/SkillUp-/",
     status: "completed",
   },
 ]
