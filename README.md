@@ -8,6 +8,9 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38bdf8?style=for-the-badge&logo=tailwind-css)
 
+## 🌐 Demo
+- **Live:** https://swirius.github.io/Portfolio-en-React/
+
 ## ✨ Features
 
 - **🎨 Modern Design**: Dark theme with neon green (#00FF9D) and cyan blue (#00BFFF) accents
@@ -145,8 +148,9 @@ Update your personal information in the respective component files:
 ## 📧 Contact
 
 - **Email**: swiridoagustin123@gmail.com
-- **LinkedIn**: [linkedin.com/in/agustin-swirido](https://linkedin.com/in/agustin-swirido)
+- **LinkedIn**: [linkedin.com/in/swiridoagustin](https://www.linkedin.com/in/swiridoagustin/)
 - **GitHub**: [github.com/Swirius](https://github.com/Swirius)
+- **WhatsApp**: [+54 9 11 5514-2785](https://wa.me/5491155142785)
 - **Location**: Buenos Aires, Argentina
 
 ## 📄 License
