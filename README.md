@@ -161,6 +161,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Made with ❤️ by Agustín Swirido**
+**Made by Agustín Swirido**
 
 *If you found this portfolio helpful, consider giving it a ⭐ on GitHub!*
