@@ -104,7 +104,7 @@ export default function Contact() {
                   </a>
 
                   <a
-                    href="https://linkedin.com/in/agustin-swirido"
+                    href="https://linkedin.com/in/swiridoagustin"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 p-3 rounded-lg bg-muted hover:bg-secondary/10 hover:border-secondary border border-transparent transition-all group"
