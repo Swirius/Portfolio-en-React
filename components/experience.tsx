@@ -10,7 +10,7 @@ const experiences = [
     period: "May 2024 - Jun 2025",
     description: [
       "Managed remote sales and customer service using persuasive communication and objection-handling techniques",
-      "Coordinated outreach campaigns and performed basic data analysis to meet monthly targets",
+      "Coordinated outreach campaigns and performed basic data analysis to meet weekly targets",
       "Oversaw administrative processes, including data entry, invoicing, and post-sale follow-up",
     ],
     icon: Briefcase,
