@@ -90,7 +90,7 @@ export default function Hero() {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="https://linkedin.com/in/agustin-swirido"
+              href="https://linkedin.com/in/swiridoagustin"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-secondary transition-colors"
