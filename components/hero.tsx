@@ -71,7 +71,7 @@ export default function Hero() {
               className="border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground font-mono bg-transparent w-full sm:w-auto"
               asChild
             >
-              <a href="/SwiridoAgustin-CV.pdf" download>
+              <a href="/SwiridoAgustin-CV.pdf" download="Agustin_Swirido_CV.pdf">
                 <Download className="mr-2 h-4 w-4" />
                 Download CV
               </a>
