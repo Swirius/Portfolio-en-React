@@ -49,28 +49,28 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
 ### Installation
 
 1. **Clone the repository**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/yourusername/portfolio.git
    cd portfolio
-   \`\`\`
+   ```
 
 2. **Install dependencies**
-   \`\`\`bash
+   ```bash
    npm install
    # or
    yarn install
    # or
    pnpm install
-   \`\`\`
+   ```
 
 3. **Run the development server**
-   \`\`\`bash
+   ```bash
    npm run dev
    # or
    yarn dev
    # or
    pnpm dev
-   \`\`\`
+   ```
 
 4. **Open your browser**
    
@@ -78,14 +78,15 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
 
 ## 📦 Build for Production
 
-\`\`\`bash
+```bash
 npm run build
 npm start
-\`\`\`
+```
 
 ## 📁 Project Structure
 
-\`\`\`
+
+```
 portfolio/
 ├── app/
 │   ├── layout.tsx          # Root layout with theme provider
@@ -106,7 +107,7 @@ portfolio/
 │   └── ui/                 # shadcn/ui components
 ├── public/                 # Static assets
 └── README.md              # This file
-\`\`\`
+```
 
 ## 🎨 Customization
 
@@ -114,7 +115,7 @@ portfolio/
 
 Edit the theme colors in `app/globals.css`:
 
-\`\`\`css
+```css
 @theme inline {
   /* Dark Theme */
   --color-background: #000000;
@@ -129,7 +130,7 @@ Edit the theme colors in `app/globals.css`:
     /* ... */
   }
 }
-\`\`\`
+```
 
 ### Content
 
@@ -155,7 +156,6 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 🙏 Acknowledgments
 
 - Design inspiration from modern developer portfolios
-- Built with [v0.dev](https://v0.dev) by Vercel
 - UI components from [shadcn/ui](https://ui.shadcn.com/)
 - Icons from [Lucide](https://lucide.dev/)
 
