@@ -19,7 +19,7 @@ const projects = [
     subtitle: "Guidance & Soft Skills",
     description: "Application for vocational guidance and soft skills development.",
     stack: ["HTML", "CSS", "JavaScript"],
-    features: ["Test with summary and suggestions", 'Interactive "DressCode" module (drag & drop)'],
+    features: ["Career orientation form with suggestions", "Soft-skills test with summary", 'Interactive "DressCode" module (drag & drop)'],
     github: "https://github.com/Swirius/SkillUp-",
     demo: "https://swirius.github.io/SkillUp-/",
     status: "completed",
